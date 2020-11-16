@@ -6,10 +6,10 @@ With **Data generator.ipynb** the data are read thank to PyPlink.
 With **selecting-main-effects.R** the SNPs presenting main effects on the phenotype are selected.
 
 Feature selection is then performed for ReliefF with the python code:
-`<./rebate.py -a relieff -c Y -T 100 -f complete_withAnswer.csv -k 100>`
+`./rebate.py -a relieff -c Y -T 100 -f complete_withAnswer.csv -k 100`
 
 and for Episcan with the R code:
-`<episcan(data, pheno = class, phetype ="case-control", outfile = "episcan", suffix = ".txt", zpthres = 1e-06, chunksize = 1000, scale = TRUE)>`.
+`episcan(data, pheno = class, phetype ="case-control", outfile = "episcan", suffix = ".txt", zpthres = 1e-06, chunksize = 1000, scale = TRUE)`.
 
 In **Filtering.ipynb** feature selection and removal of main effects is preformed on the data.
 
