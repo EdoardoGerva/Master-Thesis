@@ -8,7 +8,7 @@ With **selecting-main-effects.R** the SNPs presenting main effects on the phenot
 Feature selection is then performed for ReliefF with the python code:
 `./rebate.py -a relieff -c Y -T 100 -f complete_withAnswer.csv -k 100`
 
-while for Episcan **episcan.R** was itilized.
+while for Episcan, **episcan.R** was utilized.
 
 In **Filtering.ipynb** feature selection and removal of main effects is preformed on the data.
 
