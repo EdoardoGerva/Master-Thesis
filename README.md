@@ -10,7 +10,7 @@ Feature selection is then performed for ReliefF with the python code:
 
 while for Episcan, **episcan.R** was utilized.
 
-In **Filtering.ipynb** feature selection and removal of main effects is preformed on the data.
+In **Filtering.ipynb** feature selection and removal of main effects are preformed on the data.
 
 **bootstrap-relief.R** and **bootstrap-episcan.R** are used to perform the bootstrap procedure on the filtered data.
 
